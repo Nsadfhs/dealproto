@@ -1,3 +1,7 @@
+::-webkit-scrollbar {
+    display: none;
+}
+
 .tim-row {
     margin-bottom: 20px;
 }

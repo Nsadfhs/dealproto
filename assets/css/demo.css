@@ -232,18 +232,18 @@ mediaquery 중단점
     color: white;
 }
 
-@media (min-width:992px) and (max-width:1199.98px) {
+@media (min-width:768px) and (max-width:1199.98px) {
     .strong-white {
         font-weight: bold;
-        font-size: 3.5em;
+        font-size: 3em;
         color: white;
     }
 }
 
-@media (max-width:768px) {
+@media (max-width:767.98px) {
     .strong-white {
         font-weight: bold;
-        font-size: 3.5em;
+        font-size: 2em;
         color: white;
     }
 }

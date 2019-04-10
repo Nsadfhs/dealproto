@@ -232,6 +232,14 @@ mediaquery 중단점
     color: white;
 }
 
+@media (min-width:1200px) {
+    .strong-white {
+        position:relative;
+        top:-70px;
+    }
+}
+
+
 @media (min-width:768px) and (max-width:1199.98px) {
     .strong-white {
         font-weight: bold;

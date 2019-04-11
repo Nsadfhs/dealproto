@@ -256,6 +256,14 @@ mediaquery 중단점
     }
 }
 
+/* @media (max-width:575.98px) {
+    .strong-white {
+        font-weight: bold;
+        font-size: 1.5em;
+        color: white;
+    }
+} */
+
 .ct-container {
     position: relative;
     background: #2e5f3e;
@@ -451,4 +459,11 @@ mediaquery 중단점
     outline: 0;
     transition: box-shadow .2s cubic-bezier(.4, 0, 1, 1), background-color .2s cubic-bezier(.4, 0, .2, 1);
     will-change: box-shadow, transform
+}
+
+@media (max-width:575.98px) {
+    .carousel {
+        position: relative;
+        height:250px;
+    }
 }
